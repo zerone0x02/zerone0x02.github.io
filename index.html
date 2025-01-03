@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网络安全 | 保护您的数字世界</title>
+    <style>
+        /* 基础样式 */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        /* 头部样式 */
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2em;
+        }
+
+        header nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* 英雄区域样式 */
+        #hero {
+            background-color: #34495e;
+            color: #fff;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        #hero h2 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        #hero p {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+
+        #hero .btn {
+            background-color: #e74c3c;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        /* 服务区域样式 */
+        #services {
+            background-color: #fff;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        #services h2 {
+            font-size: 2em;
+            margin-bottom: 40px;
+        }
+
+        .service-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .service-item {
+            width: 30%;
+            margin-bottom: 20px;
+        }
+
+        .service-item h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .service-item p {
+            font-size: 1em;
+            color: #666;
+        }
+
+        /* 关于我们样式 */
+        #about {
+            background-color: #ecf0f1;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        #about h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        #about p {
+            font-size: 1.1em;
+            color: #666;
+        }
+
+        /* 联系表单样式 */
+        #contact {
+            background-color: #fff;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        #contact h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        #contact p {
+            font-size: 1.1em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        #contact form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        #contact input, #contact textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #contact button {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* 页脚样式 */
+        footer {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>网络安全</h1>
+            <p>保护您的数字世界，从今天开始</p>
+            <nav>
+                <ul>
+                    <li><a href="#services">服务</a></li>
+                    <li><a href="#about">关于我们</a></li>
+                    <li><a href="#contact">联系我们</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>您的安全，我们的使命</h2>
+            <p>我们提供全面的网络安全解决方案，保护您的数据免受威胁。</p>
+            <a href="#contact" class="btn">立即咨询</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>我们的服务</h2>
+            <div class="service-list">
+                <div class="service-item">
+                    <h3>数据加密</h3>
+                    <p>保护您的敏感信息，确保数据在传输和存储中的安全。</p>
+                </div>
+                <div class="service-item">
+                    <h3>网络监控</h3>
+                    <p>实时监控网络活动，快速检测并应对潜在威胁。</p>
+                </div>
+                <div class="service-item">
+                    <h3>漏洞评估</h3>
+                    <p>识别系统中的弱点，提供修复建议，防止攻击。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>关于我们</h2>
+            <p>我们是一支专业的网络安全团队，致力于为客户提供最先进的安全解决方案。通过多年的经验和技术积累，我们能够有效应对各种网络威胁。</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>联系我们</h2>
+            <p>如果您有任何问题或需要帮助，请随时与我们联系。</p>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="您的姓名" required>
+                <input type="email" name="email" placeholder="您的邮箱" required>
+                <textarea name="message" placeholder="您的留言" required></textarea>
+                <button type="submit" class="btn">发送</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 网络安全公司. 保留所有权利.</p>
+        </div>
+    </footer>
+</body>
+</html>
